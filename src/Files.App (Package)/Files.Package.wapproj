@@ -79,4 +79,7 @@
       <_AppxWinmdFilesToHarvest Condition="'%(FileName)' == 'Files.App.Server'" Remove="@(_AppxWinmdFilesToHarvest)" />
     </ItemGroup>
   </Target>
+  <PropertyGroup>
+    <Publisher>CN=Files</Publisher>
+  </PropertyGroup
 </Project>
