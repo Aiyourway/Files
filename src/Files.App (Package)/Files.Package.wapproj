@@ -18,6 +18,7 @@
     <HoursBetweenUpdateChecks>255</HoursBetweenUpdateChecks>
     <EntryPointProjectUniqueName>..\Files.App\Files.App.csproj</EntryPointProjectUniqueName>
     <AppxBundle>Always</AppxBundle>
+    <Publisher>CN=Files</Publisher>
   </PropertyGroup>
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '17.0'">
     <VisualStudioVersion>17.0</VisualStudioVersion>
@@ -79,7 +80,4 @@
       <_AppxWinmdFilesToHarvest Condition="'%(FileName)' == 'Files.App.Server'" Remove="@(_AppxWinmdFilesToHarvest)" />
     </ItemGroup>
   </Target>
-  <PropertyGroup>
-    <Publisher>CN=Files</Publisher>
-  </PropertyGroup
 </Project>
